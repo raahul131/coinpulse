@@ -14,7 +14,7 @@ const Header = () => {
       <div className="main-container flex justify-between items-center h-full">
         <Link href={"/"} className={"flex flex-col items-start"}>
           <Image
-            src={"coinpulse-logo.svg"}
+            src={"/coinpulse-logo.svg"}
             alt={"coinpulse-logo"}
             width={132}
             height={40}
@@ -25,7 +25,7 @@ const Header = () => {
         <nav className={"flex h-full items-center"}>
           <Link href={"/"} className={cn('px-6 py-5 flex items-center transition-all hover:text-white font-medium h-full text-purple-100 cursor-pointer', {
             'text-white': pathname === '/',
-            'max-sm:hidde': true
+            'max-sm:hidden': true
           })}>
             Home
           </Link>
